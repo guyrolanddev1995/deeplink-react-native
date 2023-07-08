@@ -1,5 +1,6 @@
 {
   "expo": {
+    "scheme": "deeplink",
     "name": "deeplink",
     "slug": "deeplink",
     "version": "1.0.0",
@@ -21,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.rolanddev.deeplink"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4380d5f3-e180-4479-a79a-40170b96ffec"
+      }
     }
   }
 }
